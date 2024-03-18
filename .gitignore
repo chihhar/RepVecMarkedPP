@@ -1,0 +1,14 @@
+pickled/
+__pycache__/
+*.txt
+*.png
+*.svg
+*.pdf
+*.sh
+*.npy
+*.pth
+*.csv
+*.xlsx
+*.json
+*.zip
+*.90016
