@@ -12,3 +12,4 @@ __pycache__/
 *.json
 *.zip
 *.90016
+!requirements.txt

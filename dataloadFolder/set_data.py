@@ -258,7 +258,6 @@ def generate_loader(opt):
         opt.train_y_max=max(seq[:,2])
         opt.train_y_min=min(seq[:,2])
         train_loader, valid_loader, test_loader = set_batch_sequence_loader([seq[:,0],seq[:,1],seq[:,2]],opt)
-    
     elif opt.gene=="pin4":
         opt.mod_sample=["time","marks"]
         seq=genePIN.pin_wheel_generate3()
